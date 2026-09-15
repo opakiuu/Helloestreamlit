@@ -3,7 +3,7 @@ import streamlit as st
 import cv2
 import numpy as np
 
-st.title("Place Art on Background")
+st.title("Sabrina app")
 
 # User inputs
 x = st.number_input("X position", min_value=0, value=1800)
