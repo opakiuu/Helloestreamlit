@@ -6,8 +6,8 @@ import numpy as np
 st.title("Sabrina app")
 
 # User inputs
-x = st.number_input("X position", min_value=0, value=1800)
-y = st.number_input("Y position", min_value=0, value=1500)
+x = st.number_input("X position", min_value=0, value=1700)
+y = st.number_input("Y position", min_value=0, value=1100)
 
 if st.button("Generate"):
 
