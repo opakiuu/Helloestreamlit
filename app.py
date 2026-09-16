@@ -15,7 +15,7 @@ if st.button("Generate"):
     art = cv2.imread("art.jpg")
     background = cv2.imread("background.jpg")
 
-    art = cv2.resize(art, (400, 400))
+    art = cv2.resize(art, (size, size))
 
     mask = np.any(art < 250, axis=2)
 
