@@ -8,6 +8,7 @@ st.title("Sabrina app")
 # User inputs
 x = st.number_input("X position", min_value=0, value=1700)
 y = st.number_input("Y position", min_value=0, value=1100)
+size = st.number_input("Y position", min_value=100, value=400)
 
 if st.button("Generate"):
 
